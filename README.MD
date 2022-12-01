@@ -14,7 +14,7 @@
 Ouvrez un terminal et exécutez les commandes suivantes :
 
 ```bash
-npm install yarn
+npm install yarn -g
 ```
 
 Fermer le terminal et rouvrir le terminal et exécutez les commandes suivantes :
