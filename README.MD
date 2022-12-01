@@ -9,7 +9,15 @@
 
 ### Installation du code source
 
+
+
 Ouvrez un terminal et exécutez les commandes suivantes :
+
+```bash
+npm install yarn
+```
+
+Fermer le terminal et rouvrir le terminal et exécutez les commandes suivantes :
 
 
 ```bash
