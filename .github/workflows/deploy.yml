@@ -16,10 +16,4 @@ jobs:
     environment: deploy
     steps:
       - name: Deploy to server
-        run : sshpass -p '${{ secrets.SSH_PASSWORD }}' \
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_URL }} \
-          'cd /home/${{ secrets.SSH_USERNAME }}/nuit-de-l-info && \
-          git pull && \
-          yarn build && \
-          rm -rf /var/www/${{ secrets.SSH_URL }}/* && \
-          cp -r dist/* /var/www/${{ secrets.SSH_URL }}/'
+        run : sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_URL }} 'cd /home/${{ secrets.SSH_USERNAME }}/nuit-de-l-info && git pull && yarn build && rm -rf /var/www/${{ secrets.SSH_URL }}/* && cp -r dist/* /var/www/${{ secrets.SSH_URL }}/'
