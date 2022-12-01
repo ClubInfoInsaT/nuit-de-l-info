@@ -21,4 +21,4 @@ jobs:
     steps:
       - name: Deploy to server
         run : |
-          sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_URL }} 'cd $HOME/nuit-de-l-info && git pull && yarn build && rm -rf /var/www/{{ secrets.SSH_URL }}/* && cp -r dist/* /var/www/{{ secrets.SSH_URL }}/'
+          sshpass -p '${{ secrets.SSH_PASSWORD }}' ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_URL }} 'cd $HOME/nuit-de-l-info && git pull && yarn build && rm -rf /var/www/${{ secrets.SSH_URL }}/* && cp -r dist/* /var/www/${{ secrets.SSH_URL }}/'
