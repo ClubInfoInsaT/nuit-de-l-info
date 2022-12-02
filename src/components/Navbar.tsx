@@ -10,8 +10,6 @@ const Navbar = () => {
         Sex'info
       </a>
 
-
-
       <section className="MOBILE-MENU flex md:hidden">
         <div
           className="HAMBURGER-ICON space-y-2"
@@ -25,23 +23,25 @@ const Navbar = () => {
 
         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
           <div
-            className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+            className="CROSS-ICON absolute top-4 right-4 rounded-lg p-2 text-gray-900 hover:bg-gray-200 md:hidden"
             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
           >
             <svg
-              className="h-8 w-8 text-gray-600"
-              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
               fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
               stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              className="h-6 w-6"
             >
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </div>
-          <div className="gap-2 flex flex-col md:hidden">
+          <div className="flex flex-col gap-2 md:hidden">
             <button className="rounded-lg border-2 border-gray-900 px-3 py-2 font-bold hover:bg-gray-200">
               Action 1
             </button>
@@ -80,7 +80,6 @@ const Navbar = () => {
         align-items: center;
       }
     `}</style>
-
     </nav>
   );
 };
