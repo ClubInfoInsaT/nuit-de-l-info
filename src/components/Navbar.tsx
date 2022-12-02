@@ -1,5 +1,5 @@
-import { Bars3Icon } from "./Icons";
-import { useState } from "react"; // import state
+import { Bars3Icon } from './Icons';
+import { useState } from 'react'; // import state
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
@@ -21,7 +21,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+        <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
           <div
             className="CROSS-ICON absolute top-4 right-4 rounded-lg p-2 text-gray-900 hover:bg-gray-200 md:hidden"
             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
