@@ -9,7 +9,7 @@ function App() {
 
         <HeroSection />
 
-        <div className="mx-auto h-96 w-3/4 rounded-lg border-2 border-gray-900 md:h-[500px]">
+        <div className="mx-auto h-96 w-3/4 rounded-lg border-2 border-gray-900 md:h-[500px] md:w-1/2">
           <img
             className="h-full w-full rounded-lg object-cover"
             alt=""
