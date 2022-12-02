@@ -42,23 +42,39 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="flex flex-col gap-2 md:hidden">
-            <button className="rounded-lg border-2 border-gray-900 bg-pink-200 px-3 py-2 font-bold hover:bg-pink-300">
-              Action 1
-            </button>
-            <button className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700">
-              Action 2
-            </button>
+            <a href="#games" className="font-bold hover:text-pink-500">
+              Jeux
+            </a>
+            <a href="#games" className="font-bold hover:text-pink-500">
+              Urgences
+            </a>
+            <a
+              href="#faqs"
+              className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700"
+            >
+              FAQs
+            </a>
           </div>
         </div>
       </section>
 
-      <div className="hidden gap-2 md:flex">
-        <button className="rounded-lg border-2 border-gray-900 bg-pink-200 px-3 py-2 font-bold hover:bg-pink-300">
-          Action 1
-        </button>
-        <button className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700">
-          Action 2
-        </button>
+      <div className="hidden gap-4 md:flex md:items-center">
+        <div className="flex gap-2">
+          <a href="#games" className="font-bold hover:text-pink-500">
+            Jeux
+          </a>
+
+          <a href="#games" className="font-bold hover:text-pink-500">
+            Urgences
+          </a>
+        </div>
+
+        <a
+          href="#faqs"
+          className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700"
+        >
+          FAQs
+        </a>
       </div>
 
       <style>{`
