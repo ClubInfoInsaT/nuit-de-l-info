@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between">
       <a href="/" className="text-xl font-bold">
         {/* Brand Name */}
-        Lorem Ipsum
+        Sex'info
       </a>
       {/* Actions buttons */}
       <div className="hidden gap-2 md:flex">
