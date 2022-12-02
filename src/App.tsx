@@ -15,6 +15,16 @@ function App() {
             alt=""
             src="https://cdn.dribbble.com/users/6713540/screenshots/19844445/media/239aeff7d90cb998891307308bdee256.gif"
           />
+          {/* Caption */}
+          <p className="text-center">
+            <span className="font-bold">Kiss you!</span> by{' '}
+            <a
+              href="https://dribbble.com/ElinaKrasilnikova"
+              className="underline"
+            >
+              Elina Krasilnikova
+            </a>
+          </p>
         </div>
       </div>
     </div>
