@@ -1,4 +1,4 @@
-import { InformationIcon } from "./Icons";
+import { InformationIcon } from './Icons';
 
 const HeroSection = () => {
   return (

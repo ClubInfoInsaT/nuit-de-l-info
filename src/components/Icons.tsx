@@ -27,7 +27,7 @@ export const ArrowDown = ({ strokeWidth, className }: IconProps) => (
     viewBox="0 0 24 24"
     strokeWidth={strokeWidth ?? 1.5}
     stroke="currentColor"
-    className={className && "h-6 w-6"}
+    className={className && 'h-6 w-6'}
   >
     <path
       strokeLinecap="round"
@@ -44,7 +44,7 @@ export const InformationIcon = ({ strokeWidth, className }: IconProps) => (
     viewBox="0 0 24 24"
     strokeWidth={strokeWidth ?? 1.5}
     stroke="currentColor"
-    className={className ?? "h-6 w-6"}
+    className={className ?? 'h-6 w-6'}
   >
     <path
       strokeLinecap="round"
