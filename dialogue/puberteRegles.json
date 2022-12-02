@@ -1,0 +1,200 @@
+[
+    {
+        "id": 0,
+        "message": "La puberté est caractérisée par plein de changements physiques et psychologiques.
+        Les règles peuvent en faire partie. C'est une perte de sang libérée régulièrement par le vagin mais ça vient de l'utérus
+        (organe capable d'accueillir un éventuel enfant). Les règles ne sont pas sales et les personnes qui ont leurs règles non plus.
+        En revanche, une personne peut tomber enceinte peandant ses règles !!!!
+        Je te laisse consulter le site si tu as plus de questions à ce sujet.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 00,
+        "message": "Bravo ! Tu sembles avoir une bonne connaissance sur le sujet ! Et fais toujours attention sur les réseaux sociaux.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 1,
+        "message": "Salut !!! Dis, j’ai du sang plein de sang dans ma culotte. 😐Je dois absolument aller aux urgences, non ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[2, 3, 4]
+    },
+    {
+        "id": 2,
+        "message": "Mais c’est dégueu !!!!",
+        "sender":"utilisateur",
+        "suivant":[20]
+    },
+    {
+        "id": 20,
+        "message": "Quoi ???? Mais …. J’y peux rien, moi ! Et puis, attends… t’es qui ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[21,22]
+    },
+    {
+        "id": 21,
+        "message": "Qu'est-ce que ça peut te faire ? En tout cas tu m'dégoûtes !",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 22,
+        "message": "Nan, c’est vrai. Et désolé mais t’as dû te tromper de destinataire.",
+        "sender":"utilisateur",
+        "suivant":[30]
+    },
+    {
+        "id": 3,
+        "message": "Tu saignes. C’est ton problème !",
+        "sender":"utilisateur",
+        "suivant":[30]
+    },
+    {
+        "id": 30,
+        "message": "Bon écoute, je crois que je vais te laisser.",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[31,32]
+    },
+    {
+        "id": 31,
+        "message": "Tu dis ça parce que t’es énervée. Mais bon, c’est tes règles après tout.",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 32,
+        "message": "Désolé encore. C’était maladroit de ma part.  Je pense que c’est tes règles. Ce n’est pas dégoûtant, c’est normal et  tu n’as pas choisi de les avoir ou non.",
+        "sender":"utilisateur",
+        "suivant":[400]
+    },
+    {
+        "id": 4,
+        "message": "Euuuh… Salut. On se connaît pas. T’as dû te tromper en envoyant ton message. Et désolé de d’avoir à te le dire mais nan c’est pas forcément une urgence. C’est peut-être tes règles, non ?",
+        "sender":"utilisateur",
+        "suivant":[40]
+    },
+    {
+        "id": 40,
+        "message": "Ok Ahhhh merde !",
+        "sender":"ordi",
+        "suivant":[400]
+    },
+    {
+        "id": 400,
+        "message": "Mais…attends…. mais je suis censée avoir super mal et tout pendant mes règles, nan ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[41,42]
+    },
+    {
+        "id": 41,
+        "message": "Nan, pas forcément. Ça dépend des gens et des moments je pense.",
+        "sender":"utilisateur",
+        "suivant":[410]
+    },
+    {
+        "id": 42,
+        "message": "Si. T’es censée vomir aussi. Je pense que t'es foutu, déso !",
+        "sender":"utilisateur",
+        "suivant":[420]
+    },
+    {
+        "id": 410,
+        "message": "C’est la première fois que ça m’arrive. ça vient d’où tout ce sang ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[5,6]
+    },
+    {
+        "id": 420,
+        "message": "Quoi ? J'ai l'impression que tu me racontes n'importe quoi !!!",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 5,
+        "message": "De ton vagin !",
+        "sender":"utilisateur",
+        "suivant":[50]
+    },
+    {
+        "id": 50,
+        "message": "Quoi ? N'importe quoi !",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 6,
+        "message": "De ton utérus normalement.",
+        "sender":"utilisateur",
+        "suivant":[60]
+    },
+    {
+        "id": 60,
+        "message": "Ahhhh Oui, on l’a vu en cours de SVT, je m’en souviens. Exact !!!😊
+        Du coup je pourrai tomber enceinte à partir de maintenant ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[61,62]
+    },
+    {
+        "id": 61,
+        "message": "Naaaan ! T’inquiète !!! Tu peux avoir des rapports non protégés tranquille pendant tes règles !!!",
+        "sender":"utilisateur",
+        "suivant":[50]
+    },
+    {
+        "id": 62,
+        "message": "Oui ! Tout à fait ! Et si t’as des rapports pendant tes règles aussi d’ailleurs.",
+        "sender":"utilisateur",
+        "suivant":[620]
+    },
+    {
+        "id": 620,
+        "message": "Ok. C’est bon à savoir !",
+        "sender":"ordi",
+        "suivant":[621]
+    },
+    {
+        "id": 621,
+        "message": "Ah et, le truc à savoir, aussi c’est que tu as très mal pendant tes règles, tu peux consulter un spécialiste. Il pourra peut-être te donner des conseils ou t’ausculter pour savoir si tout va bien. ",
+        "sender":"utilisateur",
+        "suivant":[6210]
+    },
+    {
+        "id": 6210,
+        "message": "Merci beaucoup !!!  C’est super cool de m’avoir donné toutes ces infos. 😊 Tu t’appelles comment au fait ????",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[7,8]
+    },
+    {
+        "id": 7,
+        "message": "Je t’en prie. Par contre, déso, je ne donne pas d'information personnelle quand je tchat avec un/une inconnu en ligne. Je dois te laisser. A plus 😊",
+        "sender":"utilisateur",
+        "suivant":[710]
+    },
+    {
+        "id": 710,
+        "message": "Super réflexe !!! Bravo !",
+        "sender":"ordi",
+        "suivant":[00]
+    },
+    {
+        "id": 8,
+        "message": "Je t’en prie. Je m'appelle Victor. A plus 😊",
+        "sender":"utilisateur",
+        "suivant":[810]
+    },
+    {
+        "id": 810,
+        "message": "Alors, c'était un test en fait..Un conseil...Ne donne JAMAIS d'information personnelle quand tu tchates avec un/une inconnu en ligne. Tu peux tomber sur des personnes malveillantes !!!",
+        "sender":"ordi",
+        "suivant":[00]
+    }
+]

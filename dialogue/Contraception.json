@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "message": "Merde je suis à court de capote, faudra que j'aille en reprendre",
+        "sender":"utilisateur",
+        "suivant": [2]
+    },
+    {
+        "id": 2,
+        "message": "Mdr tu utilises vraiment des capotes ? Ça sert à rien et c'est pas confortable.",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [31,32]
+    },
+    {
+        "id": 31,
+        "message": "Ben j'ai pas envie de devenir parent tout de suite",
+        "sender":"utilisateur",
+        "suivant": [41]
+    },
+    {
+        "id": 41,
+        "message": "Moi non plus, mais bon si tu finis dehors c'est safe.",
+        "sender":"ordi",
+        "suivant": [51,52]
+    },
+    {
+        "id": 32,
+        "message": "J'adore faire des bombes à eau, me juge pas",
+        "sender":"utilisateur",
+        "suivant": [42]
+    },
+    {
+        "id": 42,
+        "message": "Arrête de te foutre de moi, tu sais très bien que t'en as pas besoin ",
+        "sender":"ordi",
+        "suivant": [43]
+    },
+    {
+        "id": 43,
+        "message": "Si tu finis dehors c'est safe de toutes façons",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [51,52]
+    },
+    {
+        "id": 51,
+        "message": "Y'a une autre solution pour être safe tu sais, c'est passer par derrière",
+        "sender":"utilisateur",
+        "suivant": [61]
+    },
+    {
+        "id": 52,
+        "message": "Tu sais que la capote ca sert pas qu'à ne pas avoir de gosse hein ?",
+        "sender":"utilisateur",
+        "suivant": [62]
+    },
+    {
+        "id": 61,
+        "message": "Vas-y de toutes façons tu me prends jamais au sérieux",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 62,
+        "message": "Non mais je me fais tester régulièrement y'a aucun risque que je refile quoique ce soit à quelqu'un",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant": [71,72]
+    },
+    {
+        "id": 71,
+        "message": "C'est pas parce que toi t'as pas d'IST que ton/ta partenaire n'en a pas",
+        "sender":"utilisateur",
+        "suivant": [81]
+    },
+    {
+        "id": 72,
+        "message": "Tu sais que quand tu te baignes dans un lac, c'est pas parce que t'es propre avant de rentrer dans l'eau que tu le seras quand tu sortiras. ",
+        "sender":"utilisateur",
+        "suivant": [82]
+    },
+    {
+        "id": 82,
+        "message": "Je comprends jamais ce que tu racontes",
+        "sender":"ordi",
+        "suivant": [83]
+    },
+    {
+        "id": 83,
+        "message": "Dans l'analogie, tu es toi et tes partenaires sont le lac, si tu comprends pas la c'est pas ma faute",
+        "sender":"utilisateur",
+        "suivant": [81]
+    },
+    {
+        "id": 81,
+        "message": "Je comprends jamais ce que tu racontes",
+        "sender":"ordi",
+        "suivant": [9]
+    },
+    {
+        "id": 9,
+        "message": "Et ils peuvent pas mentir ?",
+        "sender":"utilisateur",
+        "suivant": [10]
+    },
+    {
+        "id": 10,
+        "message": "Je vois pas pourquoi ils mentiraient sur ça.",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [111,112]
+    },
+    {
+        "id": 111,
+        "message": "Je peux t'en sortir un dizaine de tête. Après si t'es assez naïf pour croire tout le monde tu vas avoir une vie courte ",
+        "sender":"utilisateur",
+        "suivant": []
+    },
+    {
+        "id": 112,
+        "message": "Parce que tout le monde dit pas forcément la vérité. C'est pour ça que la capote c'est mieux. Après tu m'écoutes si tu veux. ",
+        "sender":"utilisateur",
+        "choice_placeholder":"choice",
+        "suivant": []
+    }
+]

@@ -1,0 +1,220 @@
+[
+    {
+        "id": 0,
+        "message": "Tu n'as pas l'air d'être très au courant. Sache qu'il ne peut y avoir aucun lien entre le genre d'une personne (être une fille ou être un garçon), son orientation sexuelle (le fait d'être attiré par un garçon ou par une fille) ou son identité sexuelle (la façon dont la personne se comporte). Un garçon (genre masculin) peut avoir des caractéristiques que l'on associe généralement plutôt aux filles (avoir des cheveux longs par exemple) et être attiré par les filles en générale par exemple. De la même manière, une fille peut tout à fait porter des cheveux courts et adorer le foot et se sentir attiré par les garçons. Toutes les combinaisons sont possibles !",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 900,
+        "message": "Bravo ! Tu sembles avoir une bonne connaissance sur ce sujet ! Et fais toujours attention sur les réseaux sociaux.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 1,
+        "message": "Salut Sacha !!! ça va ? En fait je pourrai pas venir en cours cet aprem’. Je dois faire du babysitting.",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[2, 3]
+    },
+    {
+        "id": 2,
+        "message": "OK. C’est bien un problème de fille, ça !",
+        "sender":"utilisateur",
+        "suivant":[20]
+    },
+    {
+        "id": 20,
+        "message": "Quoi ? Mais t’es sûr que je suis une fille déjà ? Pis c’est quoi ces idées préconçues !!!! ",
+        "sender":"ordi",
+        "suivant":[21]
+    },
+    {
+        "id": 21,
+        "message": "Ouais. Bien sûr que t’es une fille !",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 3,
+        "message": "Salut. Je crois que tu t’es trompé de destinataire, déso !",
+        "sender":"utilisateur",
+        "suivant":[30]
+    },
+    {
+        "id": 30,
+        "message": "Et meeeeerde !",
+        "sender":"ordi",
+        "suivant":[300]
+    },
+    {
+        "id": 300,
+        "message": "Ok Bon c’est pas grave…faut que je trouve derrière quel pseudo se cache Sacha maintenant. Je sais pas utiliser un ordi. ☹",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[31,32]
+    },
+    {
+        "id": 31,
+        "message": "Je peux peut-être t’aider si tu veux ?",
+        "sender":"utilisateur",
+        "suivant":[310]
+    },
+    {
+        "id": 32,
+        "message": "Quoi ? Mais t’es sûr que je suis une fille déjà ?Pis c’est quoi ces idées préconçues !!!!",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 310,
+        "message": "A faire du baby-sitting ? Ou en informatique ? 😉",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[311,312,4]
+    },
+    {
+        "id": 311,
+        "message": "Je suis un mec. Je suis pas fait pour garder des gosses, tu sais !",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 312,
+        "message": "Je suis une nana, je suis pas douée d’ORIGINE avec l’informatique !!!!",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 4,
+        "message": "Alors je parlais plutôt de t’aider à retrouver Sacha sur le chat XD",
+        "sender":"ordi",
+        "suivant":[40]
+    },
+    {
+        "id": 40,
+        "message": "Ok !!!😊Ben je veux bien ! Du coup de quoi t’as besoin pour la retrouver ? Euuuuh…Elle aime la boxe, comme moi XD Je sais pas par où commencer en vrai.",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[5,6]
+    },
+    {
+        "id": 5,
+        "message": "Ok…Pour des nanas c’est bizarre, non ?",
+        "sender":"utilisateur",
+        "suivant":[50]
+    },
+    {
+        "id": 50,
+        "message": "Ah bon ???? Comment ça ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[501,502]
+    },
+    {
+        "id": 501,
+        "message": "Ouais !!!! C’est étrange et  carrément pas séduisant en plus ! ",
+        "sender":"utilisateur",
+        "suivant":[32]
+    },
+    {
+        "id": 502,
+        "message": "Nan, laisse tomber. Je suis naze. C’est cool pour des nanas.",
+        "sender":"utilisateur",
+        "suivant":[5020]
+    },
+    {
+        "id": 5020,
+        "message": "Quoi ? Mais t’es sûr que je suis une fille déjà ?Pis c’est quoi ces idées préconçues !!!!",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[5021,5021]
+    },
+    {
+        "id": 5021,
+        "message": "Ouais. Bien sûr que t’es une fille !",
+        "sender":"utilisateur",
+        "suivant":[32]
+    },
+    {
+        "id": 5022,
+        "message": "Excuse-moi. … ☹ ",
+        "sender":"utilisateur",
+        "suivant":[5023]
+    },
+    {
+        "id": 5023,
+        "message": "😊 tu kiffes quoi dans la vie à part le baby-sitting ?",
+        "sender":"utilisateur",
+        "suivant":[6000]
+    },
+    {
+        "id": 6000,
+        "message": "A part mon chéri, la boxe du coup 😊 et toi ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[7,8]
+    },
+    {
+        "id": 6,
+        "message": "Nan, j’ai pas besoin de ces infos :D mais par contre, tu peux peut-être retrouver une ancienne conversation ou utiliser l’outil de recherche en haut à droite.",
+        "sender":"utilisateur",
+        "suivant":[60]
+    },
+    {
+        "id": 60,
+        "message": "Ok cool ! Merci !",
+        "sender":"ordi",
+        "suivant":[6000]
+    },
+    {
+        "id": 7,
+        "message": "Ok…t’es pédé en fait ? ",
+        "sender":"utilisateur",
+        "suivant":[70]
+    },
+    {
+        "id": 70,
+        "message": "Ahhhh mais c'est hyper aggressif ! Et surtout, je pense que t'y connais absolument rien! Sache tout de même que ce type d'insulte est puni par la loi !",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 8,
+        "message": "Cool ! Je dois te laisser par contre. Prends soin de toi 😊 ",
+        "sender":"utilisateur",
+        "suivant":[9]
+    },
+    {
+        "id": 9,
+        "message": "Merci ! Toi aussi ! 😊 Tu t’appelles comment au fait ????",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[10,11]
+    },
+    {
+        "id": 10,
+        "message": "Par contre, déso, je ne donne pas d'information personnelle quand je tchat avec un/une inconnu en ligne. Je dois te laisser.",
+        "sender":"utilisateur",
+        "suivant":[100]
+    },
+    {
+        "id": 100,
+        "message": "Super réflexe !!! Bravo !",
+        "sender":"ordi",
+        "suivant":[900]
+    },
+    {
+        "id": 11,
+        "message": "Je m'appelle Victor. A plus 😊",
+        "sender":"utilisateur",
+        "suivant":[110]
+    },
+    {
+        "id": 110,
+        "message": "Alors, c'était un test en fait..Un conseil...Ne donne JAMAIS d'information personnelle quand tu tchates avec un/une inconnu en ligne. Tu peux tomber sur des personnes malveillantes !!!",
+        "sender":"ordi",
+        "suivant":[900]
+    }
+]

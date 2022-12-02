@@ -1,0 +1,187 @@
+[
+    {
+        "id": 0,
+        "message": "La puberté est caractérisée par plein de changements physiques et psychologiques.
+        Les premières éjaculations peuvent en faire partie. C'est une émission de sperme par le pénis.Mais le sperme est fabriqué par tes testicules.
+        Les premières éjaculations se passent de manière inconsciente la nuit souvent. Le sperme n'est pas quelque chose de sale et les personnes 
+        qui ont leurs éjaculations ne sont pas responsables de cela. Quant aux érections, c'est difficelement contrôlable quelques fois ! 
+        Dès tes premières éjaculations, tu peux mettre une personne enceinte et cela pendant ses règles !!!!
+        Je te laisse consulter le site si tu as plus de questions à ce sujet.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 00,
+        "message": "Bravo ! Tu sembles avoir une bonne connaissance sur le sujet ! Et fais toujours attention sur les réseaux sociaux.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 1,
+        "message": "Salut !!! Dis, ce matin je me suis réveillé et sur mon calbut y’avait une tâche sur le devant, toute humide. 😐Je me suis pissé tu crois ?????",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[2, 3, 4]
+    },
+    {
+        "id": 2,
+        "message": "Mais c’est dégueu !!!! T'es qui d'abord ???",
+        "sender":"utilisateur",
+        "suivant":[20]
+    },
+    {
+        "id": 20,
+        "message": "Quoi ???? Mais …. J’y peux rien, moi ! Et puis, attends… t’es pas mon pote!!!",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[21,22]
+    },
+    {
+        "id": 21,
+        "message": "Qu'est-ce que ça peut te faire ? En tout cas tu m'dégoûtes !",
+        "sender":"utilisateur",
+        "suivant":[0]
+    },
+    {
+        "id": 22,
+        "message": "Nan, c’est vrai. Et désolé mais t’as dû te tromper de destinataire.",
+        "sender":"utilisateur",
+        "suivant":[23]
+    },
+    {
+        "id": 3,
+        "message": "C’est du sperme. T’as dû te toucher cette nuit. T’es un gros pervers !",
+        "sender":"utilisateur",
+        "suivant":[30]
+    },
+    {
+        "id": 30,
+        "message": "Bon écoute, je crois que je vais te laisser. T'as l'air d'être pas très au courant de ces choses là.",
+        "sender":"ordi",
+        "suivant":[]
+    },
+    {
+        "id": 23,
+        "message": "C’était maladroit de ma part. Je pense que c’est du sperme. Ce n’est pas dégoûtant, c’est normal et  tu n’es pas responsable de ça.",
+        "sender":"utilisateur",
+        "suivant":[400]
+    },
+    {
+        "id": 4,
+        "message": "Euuuh… Salut. On se connaît pas. T’as dû te tromper en envoyant ton message. Et désolé de d’avoir à te le dire mais nan c’est pas forcément une urgence. C’est peut-être du sperme, non ?",
+        "sender":"utilisateur",
+        "suivant":[40]
+    },
+    {
+        "id": 40,
+        "message": "Ok Ahhhh merde !",
+        "sender":"ordi",
+        "suivant":[400]
+    },
+    {
+        "id": 400,
+        "message": "Mais…attends…. mais je me rappelle pas m’être touché ou avoir pensé à des trucs chauds, moi !!!!",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[41,42]
+    },
+    {
+        "id": 41,
+        "message": "C’est normal. Les premières fois ça peut être complétement inconscient. C’est comme les érections.",
+        "sender":"utilisateur",
+        "suivant":[410]
+    },
+    {
+        "id": 42,
+        "message": "Si. T’es un gros pervers, mec. Déso",
+        "sender":"utilisateur",
+        "suivant":[420]
+    },
+    {
+        "id": 410,
+        "message": "C’est la première fois que ça m’arrive. C’est dû à quoi les érections ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[5,6]
+    },
+    {
+        "id": 420,
+        "message": "Quoi ? Mais t’es qui pour me parler comme ça ??? J'ai l'impression qu'en fait, t'y connais rien !",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 5,
+        "message": "C’est un os dans ton pénis.  ",
+        "sender":"utilisateur",
+        "suivant":[50]
+    },
+    {
+        "id": 50,
+        "message": "Quoi ? N'importe quoi !",
+        "sender":"ordi",
+        "suivant":[0]
+    },
+    {
+        "id": 6,
+        "message": "C’est ton pénis qui se gonfle de sang.",
+        "sender":"utilisateur",
+        "suivant":[60]
+    },
+    {
+        "id": 60,
+        "message": "Ahhhh Oui, on l’a vu en cours de SVT, je m’en souviens. Exact !!!😊Du coup je contrôle pas vraiment ça non plus pour l’instant ? Chauuuud !!!!! Et techniquement …je peux avoir des enfants du coup ?",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[61,62]
+    },
+    {
+        "id": 61,
+        "message": "Naaaan ! T’inquiète !!! Tu peux avoir des rapports non protégés tranquille pour l’instant !!!",
+        "sender":"utilisateur",
+        "suivant":[50]
+    },
+    {
+        "id": 62,
+        "message": "Oui ! Tout à fait ! Et si t’as des rapports avec quelqu'un pendant ses règles aussi d’ailleurs.",
+        "sender":"utilisateur",
+        "suivant":[620]
+    },
+    {
+        "id": 620,
+        "message": "Ok. C’est bon à savoir !",
+        "sender":"ordi",
+        "suivant":[6210]
+    },
+    {
+        "id": 6210,
+        "message": "Merci beaucoup !!!  C’est super cool de m’avoir donné toutes ces infos. 😊 Tu t’appelles comment au fait ????",
+        "choice_placeholder":"choice",
+        "sender":"ordi",
+        "suivant":[7,8]
+    },
+    {
+        "id": 7,
+        "message": "Je t’en prie. Par contre, déso, je ne donne pas d'information personnelle quand je tchat avec un/une inconnu en ligne. Je dois te laisser. A plus 😊",
+        "sender":"utilisateur",
+        "suivant":[710]
+    },
+    {
+        "id": 710,
+        "message": "Super réflexe !!! Bravo !",
+        "sender":"ordi",
+        "suivant":[00]
+    },
+    {
+        "id": 8,
+        "message": "Je t’en prie. Je m'appelle Victor. A plus 😊",
+        "sender":"utilisateur",
+        "suivant":[810]
+    },
+    {
+        "id": 810,
+        "message": "Alors, c'était un test en fait..Un conseil...Ne donne JAMAIS d'information personnelle quand tu tchates avec un/une inconnu en ligne. Tu peux tomber sur des personnes malveillantes !!!",
+        "sender":"ordi",
+        "suivant":[00]
+    }
+]

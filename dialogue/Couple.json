@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "message": "On se voit quand ? Ça fait 2 semaines on s'est pas vu...",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [21,22]
+    },
+    {
+        "id": 21,
+        "message": "Désolé, j'ai pas eu beaucoup de temps libre récemment",
+        "sender":"utilisateur",
+        "suivant": [31]
+    },
+    {
+        "id": 22,
+        "message": "Ben alors, on serait accro à ce corps divin ???",
+        "sender":"utilisateur",
+        "suivant": [32]
+    },
+    {
+        "id": 31,
+        "message": "t'es dispo ce weekend ?",
+        "sender":"ordi",
+        "suivant": [4]
+    },
+    {
+        "id": 32,
+        "message": "ahah très drôle",
+        "sender":"ordi",
+        "suivant": [33]
+    },
+    {
+        "id": 33,
+        "message": "Ça me dit pas si t'es dispo ce weekend...",
+        "sender":"ordi",
+        "suivant": [4]
+    },
+    {
+        "id": 4,
+        "message": "Ouai j'ai rien de prévu dimanche",
+        "sender":"utilisateur",
+        "suivant": [5]
+    },
+    {
+        "id": 5,
+        "message": "On fait ça chez toi ou chez moi",
+        "sender":"utilisateur",
+        "suivant": [6]
+    },
+    {
+        "id": 6,
+        "message": "Oh putain, on est arrivé à ce moment dans notre relation...",
+        "sender":"ordi",
+        "suivant": [7]
+    },
+    {
+        "id": 7,
+        "message": "On a même pas mis de nom sur ce que c'est ",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [81,82]
+    },
+    {
+        "id": 81,
+        "message": "C'est ce qu'on avait dit au début, pas d'étiquette, je vois pas pourquoi il faudrait changer un truc qui marche bien",
+        "sender":"utilisateur",
+        "suivant": [1001]
+    },
+    {
+        "id": 1001,
+        "message": "Tu crois pas qu'au bout de 3 mois faudrait définir certaines choses ?",
+        "sender":"ordi",
+        "suivant": [1002]
+    },
+    {
+        "id": 1002,
+        "message": "Non pas forcément, j'ai l'impression tu cherches quelque chose",
+        "sender":"utilisateur",
+        "suivant": [1003]
+    },
+    {
+        "id": 1003,
+        "message": "Je sais pas on pourrait définir si on est exclusif ou pas déjà",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [1041,1042]
+    },
+    {
+        "id": 1041,
+        "message": "J'en étais sur, tu cherches à me fliquer. T'as peur que je trouve mieux ailleurs",
+        "sender":"utilisateur",
+        "suivant": [1005]
+    },
+    {
+        "id": 1042,
+        "message": "Ça ça veut dire que tu vas voir ailleurs c'est sur",
+        "sender":"utilisateur",
+        "suivant": [1005]
+    },
+    {
+        "id": 1005,
+        "message": "Mais qu'est ce que tu racontes ??? Pourquoi t'essaies de créer des problèmes où il y en a pas ?",
+        "sender":"ordi",
+        "suivant": [1006]
+    },
+    {
+        "id": 1006,
+        "message": "Vas-y tu m'as soulé... Si cette simple question te fais dire des choses comme ça, j'ai pas envie de faire plus d'effort...",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [1071,1072]
+    },
+    {
+        "id": 1071,
+        "message": "J'en étais sûr, t'as trouvé mieux ailleurs ",
+        "sender":"utilisateur",
+        "suivant": []
+    },
+    {
+        "id": 1072,
+        "message": "Non attends c'est pas ce que je voulais dire...",
+        "sender":"utilisateur",
+        "suivant": []
+    },
+
+    
+    {
+        "id": 82,
+        "message": "C'est vrai, on s'était pas trop posé la question. Au bout de 3 mois c'est sur que ça serait pas mal de mettre ça au clair.",
+        "sender":"utilisateur",
+        "suivant": [1101]
+    },
+    {
+        "id": 1101,
+        "message": "Tu vois personnes en dehors de moi ? Parce que moi non...",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [1121,1122]
+    },
+    {
+        "id": 1121,
+        "message": "Non bien sûr, c'est pas parce qu'on a pas dit qu'on était exclusif que je suis allé voir ailleur",
+        "sender":"utilisateur",
+        "suivant": [1103]
+    },
+    {
+        "id": 1122,
+        "message": "3, 4 personnes mais t'inquiètes c'est toi que je préfère <3",
+        "sender":"utilisateur",
+        "suivant": [1123]
+    },
+    {
+        "id": 1123,
+        "message": "ahaha c'est hilarant....",
+        "sender":"ordi",
+        "suivant": [1103]
+    },
+    {
+        "id": 1103,
+        "message": "Du coup on peut dire qu'on est en couple non ?",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [1141,1142]
+    },
+    {
+        "id": 1141,
+        "message": "Ça fait 3 mois on \"sort\" ensemble, on est exclusif, je pense que c'est bien le mot oui.",
+        "sender":"utilisateur",
+        "suivant": [1151]
+    },
+    {
+        "id": 1151,
+        "message": "On a pas répondu à la question la plus importante, chez moi ou chez toi",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 1142,
+        "message": "Je suis pas sûr si j'ai la force de me mettre dans une vraie relation pour le moment, tu sais comment la dernière c'est passé pour moi...",
+        "sender":"utilisateur",
+        "suivant": [1152]
+    },
+    {
+        "id": 1152,
+        "message": "Tu sais c'est pas un mot qui va changer grand chose",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [1161,1162]
+    },
+    {
+        "id": 1161,
+        "message": "Ouai mais c'est se rajouter une pression de plus... Et tu vois que j'ai pas beaucoup de temps à moi donc encore moi de temps à consacrer à nous, j'ai pas envie de tout ruiner...",
+        "sender":"utilisateur",
+        "suivant": [1107]
+    },
+    {
+        "id": 1162,
+        "message": "Ouai t'as surement raison...",
+        "sender":"utilisateur",
+        "suivant": [1107]
+    },
+    {
+        "id": 1107,
+        "message": "On en reparle plus tard si tu veux, mais par contre faut répondre à la question la plus importante : chez toi ou chez moi ?",
+        "sender":"ordi",
+        "suivant": []
+    }
+
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "message": "T'es toujours d'accord que ce soir on passe à la prochaine étape ?",
+        "sender":"ordi",
+        "suivant": [2]
+    },
+    {
+        "id": 2,
+        "message": "Bien sur ! Pourquoi t'as changé d'avis ?",
+        "sender":"utilisateur",
+        "suivant": [3]
+    },
+    {
+        "id": 3,
+        "message": "Je sais pas, j'ai peur que si tu me vois comme je suis, tu risques de plus m'aimer...",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [41,42]
+    },
+    {
+        "id": 41,
+        "message": "Attends tu veux dire que t'es moche ?",
+        "sender":"utilisateur",
+        "suivant": [51]
+    },
+    {
+        "id": 42,
+        "message": "Mais qu'est ce que tu racontes ? Je t'aime comme tu es.",
+        "sender":"utilisateur",
+        "suivant": [52]
+    },
+    {
+        "id": 51,
+        "message": "Je me livre à toi et tu me réponds ça ? Je pensais que t'étais un type bien...",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 52,
+        "message": "Je suis sûre tu le penses pas...",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [61,62]
+    },
+    {
+        "id": 61,
+        "message": "Tu sais tous les gouts sont dans la nature même les moches ",
+        "sender":"utilisateur",
+        "suivant": [71]
+    },
+    {
+        "id": 62,
+        "message": "Mais si je le pense, tu es très belle. Ce que toi tu vois comme des défauts, moi je vois ça comme des atouts.",
+        "sender":"utilisateur",
+        "suivant": [72]
+    },
+    {
+        "id": 71,
+        "message": "C'EST SENSÉ ME RASSURER???",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 72,
+        "message": "Je sens que je vais pleurer, personne n'avait été aussi gentil avec moi ",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [81,82]
+    },
+    {
+        "id": 81,
+        "message": "Comme on dit plus y'a de forme, meilleure est l'attache ",
+        "sender":"utilisateur",
+        "suivant": [91]
+    },
+    {
+        "id": 82,
+        "message": "Tu sais une relation ça un côté hyper agréable et hyper beau, c'est un exercice dans lequel tu mets ton anatomie au service de la relation, en l'oubliant un peu",
+        "sender":"utilisateur",
+        "suivant": [92]
+    },
+    {
+        "id": 91,
+        "message": "Je vais vomir, t'es vraiment horrible...",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 92,
+        "message": "Je... Merci....",
+        "sender":"ordi",
+        "suivant": []
+    }
+    
+    
+    
+
+]

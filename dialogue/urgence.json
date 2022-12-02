@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "message": "Nom_joueur,NOM_JOUEUR,LA CAPOTE A CRAQUÉ HIER, QU'EST CE QU'ON FAIT ????",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [2,3]
+    },
+    {
+        "id": 2,
+        "message": "Meeeeeeeerde,qu'est ce qu'on va faire ?????",
+        "sender":"utilisateur",
+        "suivant": [4]
+    },
+    {
+        "id": 3,
+        "message": "Mais t'inquiète on s'en fout ",
+        "sender":"utilisateur",
+        "suivant": [5]
+    },
+    {
+        "id": 4,
+        "message": "Je sais pas, je panique un peu, imagine je tombe enceinte",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [6,7]
+    },
+    {
+        "id": 5,
+        "message": "MAIS T'ES COMPLÈTEMENT CON ! IMAGINE SI JE TOMBE ENCEINTE ON FAIT QUOI ?????",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [6,7]
+    },
+    {
+        "id": 6,
+        "message": "On peut pas le garder, j'ai que age_joueur je peux pas devenir papa",
+        "sender":"utilisateur",
+        "choice_placeholder":"choice",
+        "suivant": [9, 10]
+    },
+    {
+        "id": 7,
+        "message": "J'ai toujours voulu être daron, ça sera l'occasion ",
+        "sender":"utilisateur",
+        "suivant": [8]
+    },
+    {
+        "id": 8,
+        "message": "J'EN REVIENS PAS QUE J'AI COUCHÉ AVEC TOI, T'ES VRAIMENT UN IMBÉCILE COMPLET",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [9,10]
+    },
+    {
+        "id": 9,
+        "message": "T'es sure qu'avec les règles ça va pas se régler tout seul ? ",
+        "sender":"utilisateur",
+        "suivant": [11]
+    },
+    {
+        "id": 10,
+        "message": "Y'a la pilule du lendemain  ",
+        "sender":"utilisateur",
+        "suivant": [13]
+    },
+    {
+        "id": 11,
+        "message": "NON MAIS VRAIMENT ??? ET T'ES ALLÉ AU LYCÉE TOI ? T'AS SUIVI DES COURS DE BIOLOGIES ? ÇA MARCHE PAS COMME ÇA DU CON",
+        "sender":"ordi",
+        "suivant": [12]
+    },
+    {
+        "id": 12,
+        "message": "Tu sais quoi je vais me demerder toutes seules. Tu sers à rien de toute façons...",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 13,
+        "message": "C'est vrai... Je vais aller à la pharmacie directement. ",
+        "sender":"ordi",
+        "suivant": [14]
+    },
+    {
+        "id": 14,
+        "message": "MAIS ATTENDS, Y'A PAS QUE ÇA COMME PROBLÈME, LES IST T'Y AS PENSÉ ???",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [15, 16]
+    },
+    {
+        "id": 15,
+        "message": "Faut qu'on aille se faire tester au plus vite. Plus on attend pire ça sera si on a chopé quelque chose",
+        "sender":"utilisateur",
+        "suivant": [19]
+    },
+    {
+        "id": 16,
+        "message": "Ça se soigne, c'est comme un rhume hein",
+        "sender":"utilisateur",
+        "suivant": [17]
+    },
+    {
+        "id": 17,
+        "message": "Mais... Je... T'as jamais suivi de cours d'éducation sexuelle ??? ",
+        "sender":"ordi",
+        "suivant": [18]
+    },
+    {
+        "id": 18,
+        "message": "Si tu penses vraiment que ça se soigne aussi facilement, débrouille-toi. Moi je vais aller me faire tester.",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 19,
+        "message": "T'as raison... Je vais y aller après la pharmacie.",
+        "sender":"ordi",
+        "choice_placeholder":"choice",
+        "suivant": [20, 21]
+    },
+    {
+        "id": 20,
+        "message": "T'inquiète pas, je suis sur que ça va allez. On est pas les premiers à qui c'est arrivé, ça la faire",
+        "sender":"utilisateur",
+        "suivant": [22]
+    },
+    {
+        "id": 21,
+        "message": "C'est de ta faute... J'aurai jamais du faire ça avec toi. Avec la chance que j'ai, tu seras enceinte et tu m'auras refilé une connerie...",
+        "sender":"utilisateur",
+        "suivant": [23]
+    },
+    {
+        "id": 22,
+        "message": "oui je sais... mais bon c'est la première fois que ça m'arrive... heureusement que t'étais la... je pense que je serais partie en dépression sans toi... ",
+        "sender":"ordi",
+        "suivant": []
+    },
+    {
+        "id": 23,
+        "message": "PARDON ??? NE M'ADRESSE PLUS JAMAIS LA PAROLE",
+        "sender":"ordi",
+        "suivant": []
+    }
+    
+
+
+]
