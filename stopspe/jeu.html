@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>BubbleHunt</title>
+<link rel="stylesheet" media="screen" href="./CSS/styles.css" type="text/css" />
+<script src="./JS/code.js"></script>
+</head>
+<body>
+
+<div id="game-box">
+    <div id="hud">
+        <div id="life-bar">
+            <div id="life"></div>
+        </div>
+
+        <select name="difficulty" id="select-difficulty">
+            <option value="easy">capote de marque</option>
+            <option value="medium">capote réutilisée</option>
+            <option value="hard">sac plastique</option>
+        </select>
+        
+    </div>
+
+    <div id="game-start">
+        <button role="button" id="start-button">START</button>
+        <img id="sp-icon" src="./Images/sp.png"/>
+    </div>
+
+    <div id="game-content">
+        <canvas id="dessin" width="600px" height="360px">
+            Texte pour les navigateurs ne supportant pas canvas
+        </canvas>
+    </div>
+
+    <div id="game-end"></div>
+</div>
+
+</body>
+</html>
