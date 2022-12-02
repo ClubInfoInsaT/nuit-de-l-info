@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between">
       <a href="/" className="text-xl font-bold">
         {/* Brand Name */}
-        Sex'info
+        <span className="text-pink-500">Sex'</span>info
       </a>
 
       <section className="MOBILE-MENU flex md:hidden">
@@ -30,19 +30,19 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               className="h-6 w-6"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M6 18L18 6M6 6l12 12"
               />
             </svg>
           </div>
           <div className="flex flex-col gap-2 md:hidden">
-            <button className="rounded-lg border-2 border-gray-900 px-3 py-2 font-bold hover:bg-gray-200">
+            <button className="rounded-lg border-2 border-gray-900 bg-pink-200 px-3 py-2 font-bold hover:bg-pink-300">
               Action 1
             </button>
             <button className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700">
@@ -53,7 +53,7 @@ const Navbar = () => {
       </section>
 
       <div className="hidden gap-2 md:flex">
-        <button className="rounded-lg border-2 border-gray-900 px-3 py-2 font-bold hover:bg-gray-200">
+        <button className="rounded-lg border-2 border-gray-900 bg-pink-200 px-3 py-2 font-bold hover:bg-pink-300">
           Action 1
         </button>
         <button className="rounded-lg border-2 border-gray-900 bg-gray-900 px-3 py-2 font-bold text-white hover:border-gray-700 hover:bg-gray-700">
