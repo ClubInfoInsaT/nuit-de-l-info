@@ -1,7 +1,28 @@
+import Footer from './components/Footer';
+import { Game } from './components/GameCard';
+import GameSection from './components/GameSection';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 
 function App() {
+  const games: Game[] = [
+    {
+      title: 'A serious game',
+      id: 1,
+    },
+    {
+      title: 'Save the condom',
+      id: 2,
+    },
+    {
+      title: 'Snake',
+      id: 3,
+    },
+    {
+      title: 'Qui est-ce ?',
+      id: 4,
+    },
+  ];
   return (
     <div className="App">
       <div className="mx-auto mb-10 max-w-screen-xl p-4">
@@ -26,7 +47,11 @@ function App() {
             </a>
           </p>
         </div>
+
+        <GameSection games={games} />
       </div>
+
+      <Footer />
     </div>
   );
 }
