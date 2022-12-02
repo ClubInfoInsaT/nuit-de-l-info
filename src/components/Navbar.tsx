@@ -1,5 +1,5 @@
-import { Bars3Icon } from "./Icons";
-import { useState } from "react"; // import state
+import { Bars3Icon } from './Icons';
+import { useState } from 'react'; // import state
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
@@ -9,8 +9,6 @@ const Navbar = () => {
         {/* Brand Name */}
         Sex'info
       </a>
-
-
 
       <section className="MOBILE-MENU flex md:hidden">
         <div
@@ -23,7 +21,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+        <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
           <div
             className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
@@ -41,7 +39,7 @@ const Navbar = () => {
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </div>
-          <div className="gap-2 flex flex-col md:hidden">
+          <div className="flex flex-col gap-2 md:hidden">
             <button className="rounded-lg border-2 border-gray-900 px-3 py-2 font-bold hover:bg-gray-200">
               Action 1
             </button>
@@ -80,7 +78,6 @@ const Navbar = () => {
         align-items: center;
       }
     `}</style>
-
     </nav>
   );
 };
