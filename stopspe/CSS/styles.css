@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+#game-box {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    border: solid 2px black;
+    border-radius: 6px;
+}
+
+#hud {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#life-bar {
+    height: 40%;
+    width: 50%;
+    border: solid 2px black;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+#life {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(120, 76%, 33%);
+    border-radius: 12px;
+}
+
+#select-difficulty {
+    margin-right: 10px;
+}
+
+#game-start {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 5%, 22%, 0.1);
+}
+
+#start-button {
+    width: 150px;
+    height: 75px;
+    background-color: hsl(220, 69%, 53%);
+    border: 3px solid #000000;
+    border-radius: 200px;
+    box-shadow: #000000 2px 2px 0 0;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#start-button:hover {
+    background-color: #fff;
+    }
+    
+#start-button:active {
+box-shadow: #422800 2px 2px 0 0;
+transform: translate(2px, 2px);
+}
+
+#sp-icon {
+    width: 150px;
+    height: 130px;
+}
+
+#game-content {
+    display: none;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+#dessin {
+    border: solid 1px green;
+    width: 100%;
+    height: 100%;
+}
+
+#game-end {
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 5%, 22%, 0.1);
+}
+
+/* body {
+    background-color: #cccccc;
+    font-family: Arial;
+    color: black;
+    font-size: 12pt;
+}
+
+* {
+    font-family: "Arial", sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
+
+#titre {
+    font: bold 16pt sans-serif;
+    color: red;
+}
+
+#image {
+    width: 450px;
+    height: 300px;
+}
+
+#animation {
+    background-color: whitesmoke;
+    width: 450px;
+    height: 300px;
+} */
+
+
+
+
