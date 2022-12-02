@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="text-center">
         <h1 className="text-4xl font-extrabold md:text-6xl">Sex'info</h1>
         <p className="mt-4 text-xl text-gray-600">
-          Le site qui vous aide à mieux comprendre le sexe.
+          Le serious game qui vous aide à mieux comprendre le sexe.
         </p>
 
         {/* Buttons */}
