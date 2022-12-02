@@ -12,7 +12,6 @@ const GameCard = ({ game }: GameProps) => {
   const { title, id, description } = game;
 
   const gamePreview = () => {
-    console.log(id);
     return `https://picsum.photos/300/200?random=${id}`;
   };
 
@@ -24,6 +23,8 @@ const GameCard = ({ game }: GameProps) => {
 
       <h1 className="text-lg font-bold group-hover:text-pink-500">{title}</h1>
       <p className="text-sm text-gray-500">{description ?? 'N/A'}</p>
+
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"></div>
     </a>
   );
 };
